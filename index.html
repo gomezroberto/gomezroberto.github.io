@@ -1,1 +1,166 @@
-html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - Data Scientist</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            text-align: center;
+            background-color: #34495e;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .skills, .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill, .project {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .contact {
+            background-color: #ecf0f1;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #34495e;
+            color: white;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .skills, .projects {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Juan Pérez</h1>
+        <p>Data Scientist | Machine Learning Specialist | Data Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>Sobre mí</h2>
+        <p>Soy un Data Scientist apasionado por la inteligencia artificial, el análisis de datos y el aprendizaje automático. Con experiencia en proyectos de big data, análisis predictivo y visualización de datos, siempre estoy buscando nuevos desafíos para mejorar mis habilidades y contribuir al avance de la tecnología.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Habilidades</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Python</h3>
+                <p>Experto en Python para análisis de datos, machine learning y automatización.</p>
+            </div>
+            <div class="skill">
+                <h3>SQL</h3>
+                <p>Conocimiento avanzado de bases de datos y consultas SQL para la manipulación de grandes volúmenes de datos.</p>
+            </div>
+            <div class="skill">
+                <h3>Machine Learning</h3>
+                <p>Amplia experiencia en la implementación de algoritmos de machine learning y deep learning.</p>
+            </div>
+            <div class="skill">
+                <h3>Tableau</h3>
+                <p>Habilidad en la creación de dashboards interactivos para la visualización de datos complejos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Proyectos</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="https://via.placeholder.com/250" alt="Proyecto 1">
+                <h3>Predicción de Ventas</h3>
+                <p>Desarrollo de un modelo de machine learning para predecir las ventas de productos en función de variables externas.</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/250" alt="Proyecto 2">
+                <h3>Análisis de Sentimientos</h3>
+                <p>Proyecto de procesamiento de lenguaje natural para analizar el sentimiento de comentarios de clientes.</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/250" alt="Proyecto 3">
+                <h3>Visualización de Datos de Clima</h3>
+                <p>Creación de un dashboard interactivo para visualizar los datos climáticos de diferentes regiones a través de Tableau.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de los siguientes medios:</p>
+        <ul>
+            <li>Email: juanperez@example.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/juanperez" target="_blank">linkedin.com/in/juanperez</a></li>
+            <li>GitHub: <a href="https://github.com/juanperez" target="_blank">github.com/juanperez</a></li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Juan Pérez. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
