@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - Data Scientist</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            text-align: center;
+            background-color: #34495e;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .skills, .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill, .project {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .contact {
+            background-color: #ecf0f1;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #34495e;
+            color: white;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .skills, .projects {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Roberto Gomez</h1>
+        <p>Data Scientist | Machine Learning Specialist | Data Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Analytical, methodical, and organized. Master's degree in Finance (Thesis: Digital Variables in Predictive Risk Models in FinTech Environments). Experience in team coordination. Over 10 years of experience in top-level financial companies. Music and technology are my two passions.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Python</h3>
+                <p>Expert in Python for data analysis, machine learning, and automation.</p>
+            </div>
+            <div class="skill">
+                <h3>SQL</h3>
+                <p>Advanced knowledge of databases and SQL queries for handling large volumes of data.</p>
+            </div>
+            <div class="skill">
+                <h3>Machine Learning</h3>
+                <p>Extensive experience in implementing machine learning and deep learning algorithms.</p>
+            </div>
+            <div class="skill">
+                <h3>Power BI</h3>
+                <p>Skilled in creating interactive dashboards for visualizing complex data.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="https://via.placeholder.com/250" alt="Radio Matic 3000">
+                <h3>Radio Matic 3000</h3>
+                <p>Radio Matic 3000 is an automatic radio generated with text algorithms. Simply set your content preferences, we generate a radio station, and you start listening! Our announcer is Google’s Alexa, who will accompany you throughout the experience. An innovative project that combines artificial intelligence and content automation.</p>
+                <p><a href="http://rgomez.atwebpages.com/" target="_blank">Access Radio Matic 3000</a></p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/250" alt="Comprame un post">
+                <h3>Buy Me a Post</h3>
+                <p>Buy Me a Post is a marketplace for posts that allows users to read articles bought from other users and write their own to sell within the platform. It’s an innovative approach where user-generated content becomes products to be sold, facilitating the creation and distribution of content in an easy way.</p>
+                <p><a href="https://comprameunpost.vercel.app/" target="_blank">Access Buy Me a Post</a></p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/250" alt="Project 3">
+                <h3>Furvo!</h3>
+                <p>FURVO! is an app designed to organize amateur soccer games in 3 simple steps:
+1. An organizer creates the game in "New Game".
+2. Using the share button, they send the link via WhatsApp to individuals or groups.
+3. Each invitee enters the game with that link and confirms attendance.</p>
+                <p><a href="https://furvoparatodos.firebaseapp.com/" target="_blank">Access Furvo!</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p>You can contact me through the following channels:</p>
+        <ul>
+            <li>Email: rgomez.correo@gmail.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/gomezrobertoa" target="_blank">linkedin.com/in/gomezrobertoa</a></li>
+            <li>GitHub: <a href="https://github.com/gomezroberto" target="_blank">github.com/gomezroberto</a></li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
