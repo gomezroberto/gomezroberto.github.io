@@ -84,6 +84,12 @@
                 align-items: center;
             }
         }
+        .rss-item img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
     </style>
 </head>
 <body>
@@ -199,6 +205,12 @@
                             <p>${description}</p>
                         `;
                         container.appendChild(post);
+                         // Hacer las imágenes dentro de las descripciones responsivas
+                        const images = post.querySelectorAll('img');
+                        images.forEach(img => {
+                            img.style.maxWidth = '100%';  // Se asegura de que las imágenes no excedan el ancho del contenedor
+                            img.style.height = 'auto';  // Ajusta la altura proporcionalmente
+                        });
                     });
                 })
                 .catch(error => console.error('Error al cargar el RSS:', error));
