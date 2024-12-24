@@ -74,7 +74,7 @@
                 flex-direction: column;
                 align-items: center;
             }
-            .rss-item img {
+    .rss-item img {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -82,8 +82,9 @@
 }
             
         }
-                .rss-item {
+        .rss-item {
             background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
             padding: 15px;
             margin: 10px 0;
             border-radius: 8px;
