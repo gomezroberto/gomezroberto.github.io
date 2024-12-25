@@ -32,6 +32,10 @@
         nav a:hover {
             text-decoration: underline;
         }
+        .about_me {
+            padding: 20px 20px;
+            text-align: left;
+        }
         .section {
             padding: 40px 20px;
             text-align: left;
