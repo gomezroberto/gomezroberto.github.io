@@ -1,4 +1,10 @@
-        // URL del feed RSS de Medium convertido a JSON con rss2json
+// Funcion para menú hamburguesa
+function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("active");
+}
+
+// URL del feed RSS de Medium convertido a JSON con rss2json
         const rss2jsonUrl = 'https://rss2json.com/api.json?rss_url=https://medium.com/feed/@gomezrobertoa';
 
         // Función para cargar el RSS convertido a JSON
