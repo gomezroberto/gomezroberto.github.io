@@ -75,7 +75,8 @@
                 align-items: center;
             }
             .degree {
-                width: 40%;
+                width: 30%;
+                font-size: 30%;
             }
             .rss-item img {
             width: 100%;
