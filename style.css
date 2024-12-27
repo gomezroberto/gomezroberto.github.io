@@ -78,6 +78,10 @@
                 width: 35%;
                 font-size: 80%;
             }
+
+            h3 {
+            margin-top: 0px !important;
+            }
             .rss-item img {
             width: 100%;
             height: auto;
