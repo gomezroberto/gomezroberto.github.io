@@ -74,12 +74,15 @@
                 flex-direction: column;
                 align-items: center;
             }
-    .rss-item img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    border-radius: 8px;
-}
+            .degree {
+                width: 40%;
+            }
+            .rss-item img {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            border-radius: 8px;
+        }
             
         }
         .rss-item {
