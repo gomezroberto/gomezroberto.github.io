@@ -36,7 +36,7 @@
             padding: 40px 20px;
             text-align: left;
         }
-        .degrees, .skills, .projects, .scripts {
+        .degrees, .skills, .skills2, .projects, .scripts {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -73,7 +73,7 @@
             text-decoration: underline;
         }
         @media (max-width: 768px) {
-            .skills, .projects {
+            .skills, .skills2, .projects {
                 flex-direction: column;
                 align-items: center;
             }
