@@ -76,7 +76,8 @@
             }
             .degree {
                 width: 35%;
-                font-size: 80%;
+                font-size: 75%;
+                padding: 20px !important;
             }
 
             h3 {
